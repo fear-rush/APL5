@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/apl5
+apl5.so
+apl5.dylib
+apl5.dll
+apl5.a
+apl5.lib
+apl5-test-*
+*.exe
+*.o
+*.obj
+*.lst

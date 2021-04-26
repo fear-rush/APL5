@@ -1,0 +1,32 @@
+{
+	"authors": [
+		"Adib Siddhi (444034)",
+		"M. Firas"
+	],
+	"name":"rest-demo",
+	"targetType":"none",
+	"copyright": "Copyright © 2021, Adib Siddhi (444034), M. Firas",
+	
+	"description": "Demo REST API",
+	"license": "MPL-2.0",
+	
+	"subPackages": [
+		{
+			"name": "server",
+			"targetType": "executable",
+			"sourcePaths": ["server", "lib"],
+			"dependencies": {
+				"vibe-d": "~>0.9.3"
+			},
+			"versions": ["VibeDefaultMain"]
+		},
+		{
+			"name": "client",
+			"targetType": "executable",
+			"dependencies": {
+				"vibe-d": "~>0.9.3"
+			},
+			"sourcePaths": ["client", "lib"]
+
+		}]
+}
