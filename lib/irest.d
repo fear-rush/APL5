@@ -16,6 +16,9 @@ interface IRest
         Manager,
         Janitor
     }
+
+    
+
     @safe:
     @method(HTTPMethod.GET)
     @path("/api/v1/get-employees")
