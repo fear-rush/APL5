@@ -58,7 +58,7 @@ void main()
             }
             api.addEmployee(fName, position); // Untuk menambahkan employee dengan nama Firas dan posisi Manager
             employees = api.getEmployees();
-            writeln(employees);
+            writeln(serializeToJsonString(employees));
         }
 
         else if (select == 2)
