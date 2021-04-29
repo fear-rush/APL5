@@ -36,7 +36,6 @@ override:
         }
         writeln("Employee not found.");
         assert(0);
-        // return null;
     }
 
     int addEmployee(string name, Positions position)

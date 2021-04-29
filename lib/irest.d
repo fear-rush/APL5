@@ -1,6 +1,7 @@
 module lib.irest;
 
 import vibe.d;
+
 interface IRest
 {
     struct Employee
@@ -10,16 +11,15 @@ interface IRest
         Positions position;
     }
 
-    enum Positions {
+    enum Positions
+    {
         Cashier,
         Clerk,
         Manager,
         Janitor
     }
 
-    
-
-    @safe:
+@safe:
     @method(HTTPMethod.GET)
     @path("/api/v1/get-employees")
     Employee[] getEmployees();
