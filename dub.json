@@ -1,11 +1,11 @@
 {
 	"authors": [
-		"Adib Siddhi (444034)",
-		"M. Firas"
+		"Adib Siddhi Adhipta (444034)",
+		"Muhammad Firas Zahid Suryaatmaja (439816)"
 	],
 	"name":"rest-demo",
 	"targetType":"none",
-	"copyright": "Copyright © 2021, Adib Siddhi (444034), M. Firas",
+	"copyright": "Copyright © 2021, Adib Siddhi (444034), M. Firas Z S (439816)",
 	
 	"description": "Demo REST API",
 	"license": "MPL-2.0",
