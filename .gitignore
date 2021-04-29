@@ -9,7 +9,6 @@ apl5.dll
 apl5.a
 apl5.lib
 apl5-test-*
-*.exe
 *.o
 *.obj
 *.lst
