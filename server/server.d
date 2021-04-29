@@ -12,8 +12,8 @@ class Rest : IRest
     this()
     {
         employee_ = [
-            Employee("Rizal", 1, Positions.Janitor),
-            Employee("Thoriq", 2, Positions.Manager)
+            Employee("Adib", 1, Positions.Manager),
+            Employee("Firas", 2, Positions.Manager)
         ];
     }
 
